@@ -1,10 +1,10 @@
 # ph8tel.github.io
+
 ## sample html site
 
->This site was created fir a class and will be updated weekly as the lessons progress. Check back for more fun.
+> This site was created for a class and will be updated weekly as the lessons progress. Check back for more fun.
+Things this site is about:
 
-**Things this site is about**
-
 * Motorcycles
 * Motorcycles
 * Motorcycles
@@ -14,6 +14,8 @@
 * Motorcycles
 * Motorcycles
 
-Thans for reading a README, it seems like no one ever does these days.
-toodles,
-ph8
+> Thanks for reading a README, it seems like no one ever does these days.
+
+    toodles,
+
+    ph8
