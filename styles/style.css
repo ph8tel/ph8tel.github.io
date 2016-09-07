@@ -6,6 +6,7 @@ header {
 	background-color: blue;
 }
 
+
 nav {
 	padding: 10px 10px 10px 10px;
 	border: 2px solid black;
@@ -16,10 +17,31 @@ nav > li {
 	list-style: disc;
 }
 
-.tagline
-{
-	text-align: center;
-}
+
 h1 {
 	text-align: center;		
+}
+
+footer {
+	background-color: white;
+}
+
+.image-gallery {
+	border-color: solid red 2px;
+	padding: 30px;
+}
+
+}
+.gal { float:left;
+	width:32%;
+
+		}
+
+.active {
+	background-color: white;
+	color: gray;
+}
+
+.tagline
+{	text-align: center;
 }

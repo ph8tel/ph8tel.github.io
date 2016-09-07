@@ -4,14 +4,12 @@
 <head>
     <!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
+
 	<title>A Bike Named Su</title>
-	<meta name="description" content="ph8tel videos">
-	<meta name="author" content="ph8l">
 
-
- <!-- Stylesheets -->
- <link rel ="stylesheet" type = "text/css" href="styles/style.css">
+	<!-- Stylesheets 
+   ================================================== -->	
+ 	<link rel ="stylesheet" type = "text/css" href="styles/style.css">
 
 	<!-- favicon link
   ================================================== -->
@@ -23,19 +21,15 @@
 <body>
 	<header>
 	<!-- logo
-	 ================================================== -->
-	<img src="img/logo.png" alt="A bike named su logo with picture of bike on mountaintop">
-		<!-- nav
   ================================================== -->
-
-  
-  	<nav>
-	
-		<a href = index.html class="active">Home</a>
-		<a href = page-2.html>Page 2</a>
-	
-</nav>
-</header>
+		<img src="img/logo.png" alt="A bike named su logo with picture of bike on mountaintop">
+	<!-- nav
+  ================================================== -->
+	  	<nav>
+			<a href = index.html class="active">Home</a>
+			<a href = page-2.html>Page 2</a>
+		</nav>
+	</header>
 <main>
 	<h1>A tribute to my Suzuki</h1>
 	<p class="tagline">Please enjoy these photos of something that means nothing to you.</p>
@@ -44,58 +38,62 @@
 		<li><a href = index.html class="active">Home</a></li>
 		<li><a href = page-2.html>Page 2</a></li>
 	</ul>
-<main><!-- semantic block element alert!! -->
-	<h1>A tribute to my beloved Suzuki</h1>
-	<p>Please enjoy these photos of something that means nothing to you.</p>
-
+	
 	<!-- first info table
 	 ================================================== -->
 
-	 <section><!-- semantic block element alert!! -->
-		<table><!-- semantic block element alert!! -->
-		<tr>
-			<th>My Latest Ride</th>
-		</tr>
-		<tr>
-			<td>
-				<img src="img/47.JPG" alt="image of bike parked on ridge trail above Clear Lake CA">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<ul>
-					<li>213 Miles</li>
-					<li>22,431 feet climbed</li>
-					<li>38% max grade</li>
-					<li>-33% min min</li>
-					<li>17 hours 22 mins</li>
-				</ul>
-			</td>
-		</tr>
-		</table><!-- semantic block element alert!! -->
-	</article><!-- semantic block element alert!! -->
+	 <section class ="main_article">
+		<table>
+			<tr>
+				<th>My Latest Ride</th>
+			</tr>
+
+			<tr>
+				<td>
+<!--main image-->	<img src="img/47.JPG" alt="image of bike parked on 						ridge trail above Clear Lake CA">
+				</td>
+			</tr>
+			<tr>
+				<td>
+<!--detail info -->	<ul>
+						<li>213 Miles</li>
+						<li>22,431 feet climbed</li>
+						<li>38% max grade</li>
+						<li>-33% min min</li>
+						<li>17 hours 22 mins</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</section>
 
 	<!-- Three random images from the ride
 	 ================================================== -->
+	<section class = "image-gallery">
 	 <h2>Here are some shots from the ride</h2>
-	 <img src="img/14.JPG" alt="Trail picture">
-	 <img src="img/45.JPG" alt="camp picture">
-	 <img src="img/61.JPG" alt="Trail running picture">
+	 <img class="gal" src="img/14.JPG" alt="Trail picture">
+	 <img class="gal"src="img/45.JPG" alt="camp picture">
+	 <img class="gal"src="img/61.JPG" alt="Trail running picture">
+	</section>
 	 <!-- Inserting a Form here for fun
 	 	 ================================================== -->
-	<form action = page-2.html><!-- semantic block element alert!! -->
+	<form action = page-2.html>
 		<p>Did this waste your time?</p>
   		<input type="radio" name="choice" value="no" checked> No<br>
   		<input type="radio" name="choice" value="yes"> Yes<br>
   		<input type="radio" name="choice" value="other"> Meh
   		<input type="submit" value="Submit">
-	</form><!-- semantic block element alert!! -->
+	</form>
 	<!-- link to site for comparison
 	 ================================================== -->
-	 <p> check out <a href=http://www.ph8tel.com/> This Link </a> to see a beter site about this bike </p>
-	 <p>I like the other site better because it has video and I used css to make it easier to look at</p>
+	 <p> check out <a href=http://www.ph8tel.com/> This Link </a> to see a better site about this bike </p>
+	 <p>I like the other site  because it has video</p>
 
 
-</main><!-- semantic block element alert!! -->
+
+</main>
+<footer>
+	<p>footer content</p>
+</footer>
 </body>
 </html>
