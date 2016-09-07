@@ -1,6 +1,7 @@
 body {
 	background-color: gray;
 	font-family: Verdana;
+	z-index: -1
 }
 header {
 	background-color: blue;
@@ -26,14 +27,37 @@ footer {
 	background-color: white;
 }
 
-.image-gallery {
-	border-color: solid red 2px;
-	padding: 30px;
+.mainart {
+	border:2px groove black;
+	width:200px;
+	padding: 10px 5px 10px 20px;
 }
+
+.image-gallery {
+	background-color: white;
+	border-color: 10px groove black;
+	width: 32%;
+	vertical-align:top;
+	position: relative;
+	float:right;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+
+.image-gallery {
+	
+}
+.image-gallery img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 
 }
 .gal { float:left;
-	width:32%;
+	width:200px;
 
 		}
 
