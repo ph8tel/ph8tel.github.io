@@ -12,10 +12,12 @@ outline:none;
 width:66%;
 /*height:430px;*/
 position:relative;
-padding-left: 7%;
+padding-left: 10px;
+padding-right:0px  ;
+margin: autoS;
 }
 
-
+/*link sizes*/
 .gallery a{
 display:inline-block;
 width:200px;
@@ -31,12 +33,15 @@ box-sizing:border-box;
 display:block;
 width:100%;
 height:100%;
+
+/* these are added for specific browsers*/
 -webkit-transition-property:width, height, top, bottom, left, right, z-index;
 -webkit-transition-duration:2s;
 -moz-transition-property:width, height, top, bottom, left, right, z-index;
 -moz-transition-duration:2s;
 -o-transition-property:width, height, top, bottom, left, right, z-index;
 -o-transition-duration:2s;
+/*main trasition code*/
 transition-property:width, height, top, bottom, left, right, z-index;
 transition-duration:2s;
 position:absolute;

@@ -1,13 +1,14 @@
 /*I'm creating this css to keep my video specific code apart.*/
 
 iframe {
-	width:98%;  border: 2px solid white;
+	  border: 2px solid white;
 
 }
 
 .video-holder{
 
 	background-color: white;
-	width:80%;
+	width: 504px	;
+	margin:auto;
 
 }

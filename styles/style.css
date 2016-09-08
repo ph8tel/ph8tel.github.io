@@ -53,16 +53,16 @@ article {
 	border-top-width: 10px;
 	border-radius: 15px;
 	background-color: gray;
-	/*padding: 10px 5px 10px 5px;*/
+	padding: 10px 5px 10px 5px;
 	margin-left:16.5%;
 	overflow:auto;
 }
 
 .right-one-third {
 	
-	width:27.5%;
-	height:600px;
-	margin-left:62%;
+	width:23%;
+	height:282px;
+	margin-left:59%;
 	
 
 }
@@ -70,7 +70,7 @@ article {
 .left-two-thirds {
 
 	
-	width:44%;
+	width:42%;
 	height:600px;
 		float: left;
 }
