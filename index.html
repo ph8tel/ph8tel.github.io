@@ -8,11 +8,16 @@
 	<title>A Bike Named Su</title>
 
 	<!-- Stylesheets 
-   ================================================== -->
+  ================================================== -->
    		<!-- main css	 -->
  	<link rel ="stylesheet" type = "text/css" href="styles/style.css">
  		<!-- for the gallery -->
  	<link rel ="stylesheet" type = "text/css" href="styles/gal.css">
+ 		<!-- for the video -->
+ 	<link rel ="stylesheet" type = "text/css" href="styles/video.css">
+
+ 	<!--end css links
+  ================================================== -->
 
 	<!-- favicon link
   ================================================== -->
@@ -41,7 +46,7 @@
 
 <!-- image gallery -->
 
-	<div class ="gallery">
+	<article class ="gallery">
 		<a tabindex="1"><img src="img/14.JPG" alt="Trail picture"></a>
 		<a tabindex="4"><img src="img/45.JPG" alt="camp picture"></a>
 		<a tabindex="1"><img src="img/61.JPG" alt="Trail running picture"></a>
@@ -56,54 +61,54 @@
 		<a tabindex="1"><img src="img/61.JPG" alt="Trail running picture"></a>
 		<span class="closing">+</span>
 		<span class="closing-layer"></span>	
-	</div>	
+	</article>	
 	<!-- Main Article
 	 ================================================== -->
 
-	 <section class ="mainart">
+	<article class ="left-two-thirds">
 	 	<h2>My Latest Ride</h2>
-		<table>
-			<tr>
-				<th>Lake Pilsbury</th>
-			</tr>
-
-			<tr>
-				<td>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/aV3dC1Sjwhw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-				</td>
-			</tr>
-			<tr>
-				<td>
-<!--detail info -->	<ul>
+		<h3>Lake Pilsbury</h3>
+		<section class = "video-holder">
+			<iframe src="https://www.youtube.com/embed/aV3dC1Sjwhw?rel=0&amp;showinfo=0"  allowfullscreen></iframe>
+			<!--detail info -->
+			
+				<ul>
 						<li>213 Miles</li>
 						<li>22,431 feet climbed</li>
 						<li>38% max grade</li>
 						<li>-33% min min</li>
 						<li>17 hours 22 mins</li>
 					</ul>
-				</td>
-			</tr>
-		</table>
-	</section>
+			</section>
+	</article>
+
+
 			 <!-- Inserting a Form here for fun
 	 	 ================================================== -->
+	
+	<article class="right-one-third">
+		<h2>FORMS</h2>
+	<img src="img/14.JPG" alt="Trail picture">
+
 	<form action = page-2.html>
-		<p>Did this waste your time?</p>
+		<h2>Did this waste your time?</h2>
   		<input type="radio" name="choice" value="no" checked> No<br>
   		<input type="radio" name="choice" value="yes"> Yes<br>
   		<input type="radio" name="choice" value="other"> Meh
   		<input type="submit" value="Submit">
-	</form>
+  	</form>
+	</article>
 	<!-- link to site for comparison
 	 ================================================== -->
+	<!-- <article>
 	 <p> check out <a href=http://www.ph8tel.com/> This Link </a> to see a better site about this bike </p>
 	 <p>I like the other site  because it has video</p>
-
+	</article> -->
 
 
 </main>
-<footer>
+<!-- <footer>
 	<p>footer content</p>
-</footer>
+</footer> -->
 </body>
 </html>

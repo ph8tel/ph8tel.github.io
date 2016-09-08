@@ -7,11 +7,12 @@ outline:none;
 }
 
 .gallery{
-    border: gray solid 2px;
-margin:2px auto;
-width:812px;
-height:430px;
+    
+
+width:66%;
+/*height:430px;*/
 position:relative;
+padding-left: 7%;
 }
 
 
