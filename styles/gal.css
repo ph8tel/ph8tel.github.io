@@ -1,20 +1,25 @@
 
 
 /*css for the photo animation. I;m hoping to cut this down*/
-
+/*FULL DISCLOSURE: 
+I took an online css3 tutorial and this was the result.
+ I Joe Jackson did write this code, but it is not my algorithm.
+ I try to explain what is happening in comments. 
+ All other css pages are 100% my work.*/
 :focus{
 outline:none;
 }
 
+/*the basic css of the gallery. Size, location...*/
 .gallery{
     
 
 width:66%;
-/*height:430px;*/
+height:42%;
 position:relative;
 padding-left: 10px;
 padding-right:0px  ;
-margin: autoS;
+margin: auto;
 }
 
 /*link sizes*/
@@ -29,6 +34,7 @@ border:5px solid #fff;
 box-sizing:border-box;
 }
 
+/*image thumbnail sizes*/
 .gallery a img{
 display:block;
 width:100%;
@@ -41,6 +47,7 @@ height:100%;
 -moz-transition-duration:2s;
 -o-transition-property:width, height, top, bottom, left, right, z-index;
 -o-transition-duration:2s;
+
 /*main trasition code*/
 transition-property:width, height, top, bottom, left, right, z-index;
 transition-duration:2s;
@@ -54,21 +61,26 @@ cursor:pointer;
 user-select: none;    
 }
 
-
+/*trying to make a close button out of a +*/
 .closing{
+
+    /*this is the where and how big*/
 position:absolute;
 top:85px;
 right:195px;
 display:none;
 text-align:center;
 font-weight:bold;
-font-size:70px;
-color:#555;
+font-size:300px;
+
+/*this part isnt working still*/
+color:white;
 width:20px;
 height:20px;
 -webkit-text-shadow:0px 0px 5px #fff;
 -moz-text-shadow:0px 0px 5px #222;
 text-shadow:0px 0px 5px #fff;
+/*this part rotates the + 45 degrees to make*/
 -moz-transform:rotate(45deg);
 -o-transform:rotate(45deg);
 -webkit-transform:rotate(45deg);
@@ -88,22 +100,30 @@ z-index:30;
 cursor:pointer;
 }
 
+/*this code is for the closing button*/
 .gallery a:focus~.closing, a:focus~.closed-layer{
 display:block;
 }
 
-
+/*remove the border*/
 .gallery a:focus{
 border:none;
 }
 
+/*transition  here with lots of redundant code for 
+different browsers*/
 .gallery a:focus img{
 width:250%;
 height:250%;
 position:absolute;
+/*this helps create a 3d effect*/
 box-shadow:0 0 15px 2px #000;
 -moz-box-shadow:0 0 15px 2px #000;
 -webkit-box-shadow:0 0 15px 2px #000;
+
+/*If I understand this correctly, first I declare 
+what is going to be changed in the transition.
+then how long the transition should take*/
 -webkit-transition-property:width, height, top, bottom, left, right, z-index;
 -webkit-transition-duration:2s;
 -moz-transition-property:width, height, top, bottom, left, right, z-index;
@@ -116,7 +136,7 @@ cursor:default;
 z-index:25;
 }
 
-
+/*this is where the transitions start from*/
 
 .gallery a:focus:nth-child(4n+1) img{
 left:150px;
